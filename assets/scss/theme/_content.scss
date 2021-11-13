@@ -1,0 +1,238 @@
+.content {
+  .entry-title {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    &:after {
+      display: block;
+      width: 150px;
+      height: 3px;
+      content: '';
+      background: $secondary;
+      margin: 1.5rem auto;
+    }
+  }
+  p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    &.small {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+  h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+    &.line-heading {
+      position: relative;
+      text-align: center;
+      &:before{
+        position: absolute;
+        display: block;
+        content: '';
+        width: 100%;
+        top: calc(50% - 2px);
+        height: 4px;
+        background: $secondary;
+      }
+      span {
+        padding: 0 20px;
+        z-index: 5;
+        background: $white;
+        position: relative;
+      }
+    }
+  }
+  h3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  .wp-block-button__link {
+    background: $primary;
+    color: $white;
+    padding: 15px 50px;
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    &:hover {
+      color: $primary;
+      background: $secondary;
+      box-shadow: 0 3px 24px 0 rgba(0,0,0,.3);
+      -webkit-transition: all ease-in-out .3s;
+      -moz-transition: all ease-in-out .3s;
+      -ms-transition: all ease-in-out .3s;
+      -o-transition: all ease-in-out .3s;
+      transition: all ease-in-out .3s;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 1rem;
+
+    li {
+      position: relative;
+      font-size: 1.8rem;
+      line-height: 3rem;
+      padding-left: 2rem;
+
+      &:before {
+        position: absolute;
+        display: block;
+        font-family: 'Font Awesome 5 Free';
+        content: '\f0da';
+        font-weight: 700;
+        color: $secondary;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        left: 0;
+      }
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  .contact-map {
+    width: 100%;
+    border: none;
+    height: 350px;
+  }
+  blockquote {
+    background: url('../images/contact-cta-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 30px 60px;
+    position: relative;
+    margin: 30px 0;
+    display: inline-block;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.3);
+    &:before {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      display: block;
+      content: '\f10d';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 30px;
+      color: $secondary;
+    }
+    &:after {
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      display: block;
+      content: '\f10e';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 30px;
+      color: $secondary;
+    }
+    p {
+      color: $white;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      margin-bottom: 0;
+    }
+  }
+  .post-wrap {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    h2 {
+      &:after {
+        display: block;
+        width: 150px;
+        height: 3px;
+        content: '';
+        background: $secondary;
+        margin: 1.5rem 0;
+      }
+    }
+    h6 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      i {
+        margin-right: 1rem;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    .btn {
+      text-decoration: none;
+      font-family: 'BebasNeue';
+      font-size: 2rem;
+      line-height: 2.5rem;
+      border-radius: none;
+      i {
+        display: inline-block;
+        margin-left: 5px;
+        -webkit-transition: all ease-in-out .3s;
+        -moz-transition: all ease-in-out .3s;
+        -ms-transition: all ease-in-out .3s;
+        -o-transition: all ease-in-out .3s;
+        transition: all ease-in-out .3s;
+      }
+      &:hover {
+        i {
+          color: $secondary;
+          transform: translateX(+10px)
+        }
+      }
+    }
+  }
+  .after-post-nav {
+    a {
+      background: $primary;
+      font-family: "BebasNeue";
+      color: $white;
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+      padding: 5px 10px;
+      -webkit-transition: all ease-in-out .3s;
+      -moz-transition: all ease-in-out .3s;
+      -ms-transition: all ease-in-out .3s;
+      -o-transition: all ease-in-out .3s;
+      transition: all ease-in-out .3s;
+      &:hover {
+        background: $secondary;
+      }
+    }
+  }
+  .category-links {
+    a {
+      background: $secondary;
+      color: $primary;
+      font-size: 1.2rem;
+      line-height: 2.4rem;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0 3px;
+      text-decoration: none;
+      -webkit-transition: all ease-in-out .3s;
+      -moz-transition: all ease-in-out .3s;
+      -ms-transition: all ease-in-out .3s;
+      -o-transition: all ease-in-out .3s;
+      transition: all ease-in-out .3s;
+
+      &:hover {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+}

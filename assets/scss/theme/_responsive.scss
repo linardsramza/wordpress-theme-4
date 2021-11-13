@@ -1,0 +1,98 @@
+// *************************************** //
+// ************ Small Laptops ************ //
+// *************************************** //
+
+@media screen and (max-width: 1199px) {
+  .hero {
+    .hero-text {
+      h3 {
+        font-size: 5.8rem;
+      }
+    }
+    .form-wrapper {
+      h4 {
+        font-size: 4.5rem;
+      }
+    }
+  }
+  .pa-row {
+    .pa-btn {
+      h6 {
+        font-size: 2.6rem;
+      }
+    }
+  }
+}
+
+// *************************************** //
+// ********** IPads and Tablets ********** //
+// *************************************** //
+
+
+@media screen and (max-width: 991px) {
+  .wp-block-column {
+    padding: 0 15px;
+    &:not(:first-child) {
+      margin-left: 0;
+    }
+    &:nth-child(even) {
+      margin-left: 0;
+    }
+    &:not(:last-child) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &:nth-child(odd) {
+      margin-left: 0;
+    }
+  }
+  .footer {
+    h6 {
+      font-size: 2.2rem;
+      line-height: 2.5rem;
+    }
+  }
+  .top-cta {
+    h5 {
+      font-size: 2.2rem;
+      line-height: 2.5rem;
+    }
+  }
+}
+
+
+// *************************************** //
+// ******** Iphone 6 (w <=375px) ********* //
+// *************************************** //
+
+@media screen and (max-width: 767px) {
+  .top-cta {
+    text-align: center;
+  }
+  .navbar {
+    .navbar-nav {
+      .depth_0,
+      .depth_1 {
+        display: none;
+      }
+      .dropdown:hover {
+        .depth_0 {
+          display: block;
+        }
+      }
+      .dropdown-menu-right:hover {
+        .depth_1 {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// *************************************** //
+// ******** Iphone 5 (w <=370px) ********* //
+// *************************************** //
+
+@media screen and (max-width: 340px) {
+
+}

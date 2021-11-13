@@ -1,0 +1,32 @@
+.main-pa-row {
+  background: url('../images/main-pa-bg.webp'), url('../images/main-pa-bg.jpg');
+  .line-heading {
+    span {
+      background: #223541;
+    }
+  }
+  .pa-btn {
+    border: 1px solid $gray;
+    height: 300px;
+    h6 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    img {
+      width: 75px;
+    }
+    &:hover {
+      background: $primary; 
+    }
+    .img-wrap {
+      width: 25%;
+    }
+    .text {
+      width: 75%;
+    }
+  }
+}

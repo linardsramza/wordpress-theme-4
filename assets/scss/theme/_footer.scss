@@ -1,0 +1,31 @@
+.footer {
+  .social-icons {
+    li {
+      a {
+        color: $primary;
+      }
+    }
+  }
+  h6 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .phone {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .copyright {
+    a {
+      color: $secondary;
+    }
+  }
+}
+
+.otm-branding-link {
+  color: inherit;
+}
+
+.otm-branding-link:hover {
+  color: inherit;
+  text-decoration: none;
+}

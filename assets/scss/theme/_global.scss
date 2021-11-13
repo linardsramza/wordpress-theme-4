@@ -1,0 +1,43 @@
+.social-icons {
+  border: 1px solid $gray;
+  h6 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  li {
+    a {
+      color: $white;
+      font-size: 2rem;
+      line-height: 3rem;
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+section {
+  h3 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+    &.line-heading {
+      position: relative;
+      text-align: center;
+      &:before {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 100%;
+        top: calc(50% - 2px);
+        height: 4px;
+        background: $secondary;
+      }
+      span {
+        padding: 0 20px;
+        z-index: 5;
+        background: $white;
+        position: relative;
+      }
+    }
+  }
+}

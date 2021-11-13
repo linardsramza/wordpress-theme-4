@@ -1,0 +1,120 @@
+html {
+  font-family: 100% $font-family-base;
+  font-size: 62.5%;
+  font-weight: 400;
+  color: $dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-control {
+  font-family: $font-family-base, 'Font Awesome';
+}
+
+body {
+  font-family: 100% $font-family-base;
+  font-size: $font-size-base;
+  line-height: 1;
+  font-weight: 400;
+  color: $dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  line-height: 1;
+}
+
+i {
+  width: $font-size-base;
+  text-align: center;
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  font-family: 'BebasNeue';
+}
+
+.easing {
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.easing1s {
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out .1s;
+  transition: all ease-in-out 1s;
+}
+
+.btn-rounded {
+  border-radius: 5rem!important;
+}
+
+.no-radius {
+  border-radius: 0px!important;
+}
+
+.no-border {
+  border: none!important;
+}
+
+.no-bg {
+  background: none!important;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bebas {
+  font-family: 'BebasNeue', sans-serif;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.yellow {
+  color: $secondary;
+}
+
+.font-weight-medium {
+  font-weight: 500!important;
+}
+
+.font-weight-black {
+  font-weight: 900!important;
+}
+
+.cover {
+  background-size: cover!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+}

@@ -1,0 +1,37 @@
+.bt {
+  .card-block {
+    bottom: 0;
+    background: $primary;
+    h4 {
+      color: $white;
+    }
+    &:hover {
+      background: $secondary;
+      h4 {
+        color: $primary;
+      }
+    }
+  }
+  .testimonials {
+    .t-nav {
+      i {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
+    }
+    p {
+      line-height: 2.4rem;
+    }
+    .rating {
+      li {
+        margin-right: 5px;
+        &:last-child {
+          margin-right: none;
+        }
+        i {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.sidebar {
+  background: $primary;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,.2);
+  color: $white;
+  h4 {
+    color: $white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.8rem;
+      line-height: 3.5rem;
+      font-weight: 700;
+      &:before {
+        position: absolute;
+        display: block;
+        font-family: 'Font Awesome 5 Free';
+        content: '\f0da';
+        font-weight: 700;
+        color: $secondary;
+        font-size: 2rem;
+        line-height: 3.5rem;
+        left: 0;
+      }
+      a {
+        color: $white;
+        display: block;
+        -webkit-transition: all ease-in-out .3s;
+        -moz-transition: all ease-in-out .3s;
+        -ms-transition: all ease-in-out .3s;
+        -o-transition: all ease-in-out .3s;
+        transition: all ease-in-out .3s;
+      }
+      &:hover {
+        a {
+          color: $secondary;
+          transform: translateX(10px);
+          -webkit-transition: all ease-in-out .3s;
+          -moz-transition: all ease-in-out .3s;
+          -ms-transition: all ease-in-out .3s;
+          -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+        }
+      }
+    }
+  }
+}
